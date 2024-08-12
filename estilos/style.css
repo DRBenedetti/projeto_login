@@ -67,12 +67,38 @@ main {
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 label {
     display: none;
+}
+
+.campo > span {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input {
+    background-color: #58bebb;
+    height: 100%;
+    width: calc(100% - 45px);
+    transform: translateY(-11px);
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    padding: 4px;
+    
+
+}
+
+.campo > input:focus-within {
+    background-color: white;
+    
 }
 
 input[type=submit] {
